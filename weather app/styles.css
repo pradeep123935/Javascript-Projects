@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 58px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.heading {
+	background-color:skyblue;
+	padding: 10px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #069;
+  cursor: pointer;
+  font-size: 42px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
